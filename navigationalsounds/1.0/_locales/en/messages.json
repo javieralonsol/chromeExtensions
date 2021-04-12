@@ -1,0 +1,8 @@
+{
+   "extensionDescription": {
+      "message": "Plays sounds at start/end navigation or downloads like old Internet Explorer, ignoring muted tabs."
+   },
+   "extensionName": {
+      "message": "Navigational sounds"
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "extensionDescription": {
+      "message": "Reproduce sonidos al iniciar/terminar la navegación o descargas al estilo de Internet Explorer, ignorando las pestañas silenciadas."
+   },
+   "extensionName": {
+      "message": "Sonidos de navegación"
+   }
+}
