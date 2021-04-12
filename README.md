@@ -1,5 +1,5 @@
 # Extensiones para Chrome
 
-# Chrome estensions
+# Chrome extensions
 
 ### [Sonidos de navegación · Navigational sounds](https://github.com/javieralonsol/chromeExtensions/tree/master/navigationalsounds)
