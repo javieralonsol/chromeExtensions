@@ -3,10 +3,23 @@
 Overview
 Navigational Sounds is a Chrome extension that plays specific sounds to enhance your browsing experience. It provides auditory cues to indicate events like the start and completion of webpage navigation, downloads, or other interactions.
 
+https://chrome.google.com/webstore/detail/sonidos-de-navegaci%C3%B3n/plhoioliblcddpmljieonfdndcmjmkpd
+
 Features:
  - Plays sounds when navigation starts and completes (only activates sounds if the tab is not muted by the user).
  - Plays sounds for the start, completion, or cancellation of a download.
  - Plays a sound when typing in a text field.
+
+## Note on automatic sound playback:
+
+Due to Chrome’s policies, extensions that play sounds automatically may not work properly. The best solution I’ve tested is to launch the browser with this configuration:
+
+chrome.exe --autoplay-policy=no-user-gesture-required
+
+This allows any page, including this extension, to play sounds automatically. However, keep in mind that this setting removes restrictions for all websites, which could lead to unexpected experiences on sites with unwanted sound content.
+
+For more information, check Chrome’s official documentation:
+https://developer.chrome.com/blog/autoplay#developer_switches
 
 ##
 ## Installation Instructions
@@ -30,17 +43,6 @@ To install and set up the Navigational Sounds Chrome Extension, follow these ste
    Click the "Load unpacked" button and select the `1.1` directory you navigated to earlier.
 
 The extension should now be installed and active in your Chrome browser.
-
-## Note on automatic sound playback:
-
-Due to Chrome’s policies, extensions that play sounds automatically may not work properly. The best solution I’ve tested is to launch the browser with this configuration:
-
-chrome.exe --autoplay-policy=no-user-gesture-required
-
-This allows any page, including this extension, to play sounds automatically. However, keep in mind that this setting removes restrictions for all websites, which could lead to unexpected experiences on sites with unwanted sound content.
-
-For more information, check Chrome’s official documentation:
-https://developer.chrome.com/blog/autoplay#developer_switches
 
 ##
 ## Usage Examples
