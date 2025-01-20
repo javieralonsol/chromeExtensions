@@ -1,0 +1,8 @@
+{
+   "extensionDescription": {
+      "message": "Reproduce sonidos al iniciar/finalizar la navegación o descargas, y al escribir en un input o textarea (nueva funcionalidad)."
+   },
+   "extensionName": {
+      "message": "Sonidos de navegación"
+   }
+}

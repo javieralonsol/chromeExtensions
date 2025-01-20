@@ -1,0 +1,41 @@
+{
+	"author": "Javier Alonso",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"navigationalSounds.js"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	],
+	"default_locale": "en",
+	"description": "__MSG_extensionDescription__",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"manifest_version": 3,
+	"name": "__MSG_extensionName__",
+	"offline_enabled": true,
+	"permissions": [
+		"downloads",
+		"webNavigation"
+	],
+	"version": "2.0",
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"audio/*.wav"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	]
+}

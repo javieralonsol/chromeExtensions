@@ -1,0 +1,8 @@
+{
+   "extensionDescription": {
+      "message": "Plays sounds at start/end of navigation or downloads, and when typing in an input or textarea (new feature)."
+   },
+   "extensionName": {
+      "message": "Navigational sounds"
+   }
+}
